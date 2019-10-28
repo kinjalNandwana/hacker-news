@@ -1,0 +1,32 @@
+.container {
+    margin-left: 10vw;
+    margin-right: 10vw;
+    background-color: #828282;
+}
+
+.header {
+    background-color: #ff6600;
+    margin-top: 5px;
+    padding: 0px;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+   
+}
+
+.heading {
+    font-size: 18px;
+    font-weight: bold;
+}
+.navLinks {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    align-items: center;
+}
+.navLinks li {
+    margin-right: 10px;
+}
