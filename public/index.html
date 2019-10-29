@@ -14,7 +14,7 @@
         <nav class="navbar">
             <span class="heading">Hacker News</span>
             <ul class="navLinks">
-                <li class="links">New | </li>
+                <li class="links"><button class="news">New |</button></li>
                 <li class="links">top | </li>
                 <li class="links">comments | </li>
                 <li class="links">ask | </li>
@@ -22,6 +22,19 @@
             </ul>
         </nav>
         </div>
+        <template>
+            <div class="storyDiv">
+                <p class="storyTitle"></p>
+                <div>
+                    <span class="storyPoints storyFonts"></span>
+                    <span class="storyAuthor storyFonts"></span>
+                </div>
+            </div>
+        </template>
+        
+    </div>
+    <div class="load-container">
+        <button id="loadMore">Load More</button>
     </div>
 </body>
 </html>
